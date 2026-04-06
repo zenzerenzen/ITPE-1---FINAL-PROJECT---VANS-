@@ -1,0 +1,204 @@
+<!DOCTYPE html> 
+
+<html> 
+<head> 
+ 
+<link rel="stylesheet" href="OrderDetails.css">
+
+
+
+<title>Order Confirmation</title> 
+
+
+
+
+
+</head>
+
+<body>
+<header class="site-header">
+    <div class="header-container">
+
+        <!-- Logo -->
+        <div class="logo">
+            <h1>Vans</h1>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav-links">
+            <a href="">Shop</a>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Sale</a>
+        </nav>
+
+        <!-- Right side (cart/search optional) -->
+        <div class="header-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+
+    </div>
+</header>
+
+
+
+
+
+<section class="checkout">
+
+    <h1 class="title">Checkout</h1>
+
+    <!-- EXPRESS -->
+    <div class="express">
+        <button class="btn black">Apple Pay</button>
+        <button class="btn yellow">PayPal</button>
+    </div>
+
+    <div class="divider">or</div>
+
+    <!-- CONTACT -->
+    <h2>Contact</h2>
+    <input type="email" placeholder="Email">
+
+    <!-- SHIPPING -->
+    <h2>Shipping</h2>
+    <div class="row">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+    </div>
+
+    <input type="text" placeholder="Address">
+    <input type="text" placeholder="City">
+
+    <div class="row">
+        <input type="text" placeholder="ZIP">
+        <input type="tel" placeholder="Phone">
+    </div>
+
+    <!-- SHIPPING METHOD -->
+    <h2>Delivery</h2>
+    <label class="option">
+        <input type="radio" name="ship"> Standard ($8)
+    </label>
+    <label class="option">
+        <input type="radio" name="ship"> Express ($16)
+    </label>
+
+    <!-- PAYMENT -->
+    <h2>Payment</h2>
+    <input type="text" placeholder="Card Number">
+
+    <div class="row">
+        <input type="text" placeholder="MM/YY">
+        <input type="text" placeholder="CVC">
+    </div>
+
+    <button class="pay">Pay Now</button>
+
+<div class="promo">
+
+    <p class="promo-toggle">Got a Promo Code?</p>
+
+    <div class="promo-box">
+        <input type="text" placeholder="Enter code">
+        <button>Apply</button>
+    </div>
+
+</div>
+
+<div class="summary">
+
+    <h2>Order Summary</h2>
+
+    <!-- Product -->
+    <div class="item">
+        <img src="Forecast.jpeg" alt="Forecast T-shirt">
+        <div>
+            <p class="name">Forecast T-shirt</p>
+            <p class="details"> Size - M • Qty 1</p>
+        </div>
+        <p>$75.00</p>
+    </div>
+
+    <!-- Price -->
+    <div class="line">
+        <span>Subtotal</span>
+        <span>$75.00</span>
+    </div>
+
+    <div class="line">
+        <span>Shipping</span>
+        <span>$8.00</span>
+    </div>
+
+    <div class="total">
+        <span>Total</span>
+        <span>$83.00</span>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="site-footer">
+    <div class="footer-container">
+
+        <div class="footer-accordion">
+            <div class="accordion-item">
+                <a href="About.html"><button class="accordion-btn">About <i class="fas fa-chevron-down"></i></button></a>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-btn">Support <i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-btn">Sports <i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-btn">Icons <i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-btn">Featured <i class="fas fa-chevron-down"></i></button>
+            </div>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <!-- Language -->
+        <div class="lang-location">
+            <span class="flag">🇺🇸</span>
+            <span>EN | <a href="#">Change Location</a></span>
+        </div>
+
+        <!-- Legal -->
+        <div class="legal-links">
+            <a href="#">Modern Slavery Statement</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+
+        <!-- Floating Button -->
+        <button class="floating-btn">
+            <i class="fas fa-sparkles"></i>
+        </button>
+
+    </div>
+</footer>
+</body>

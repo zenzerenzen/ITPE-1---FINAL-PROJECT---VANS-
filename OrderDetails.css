@@ -1,0 +1,328 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+
+
+
+.site-header {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation */
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Icons */
+.header-icons i {
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Container */
+.checkout {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+h2 {
+    margin: 20px 0 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+/* Row */
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.black {
+    background: #000;
+    color: #fff;
+}
+
+.yellow {
+    background: #ffc439;
+}
+
+/* Divider */
+.divider {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Options */
+.option {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Pay Button */
+.pay {
+    width: 100%;
+    padding: 14px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.summary {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+
+
+/* Title */
+.summary h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Product */
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 60px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.details {
+    font-size: 12px;
+}
+
+/* Lines */
+.line, .total {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.total {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-accordion {
+    margin-bottom: 30px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #444;
+}
+
+.accordion-btn {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.lang-location {
+    margin: 20px 0;
+}
+
+.legal-links {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.legal-links a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.floating-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddd;
+    border: none;
+    font-size: 24px;
+    color: #222;
+}
+
+.lang-location {
+    margin: 20px 0;
+}
+
+.legal-links {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.legal-links a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.floating-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddd;
+    border: none;
+    font-size: 24px;
+    color: #222;
+}
+
+/* Promo section */
+.promo {
+    margin: 20px 0;
+}
+
+/* Toggle button */
+.promo-toggle {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+
+
+/* Input */
+.promo-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+/* Button */
+.promo-box button {
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .legal-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .floating-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
